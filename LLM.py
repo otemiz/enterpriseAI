@@ -4,12 +4,14 @@ import ujson
 from dspy.utils import download
 from openai import OpenAI
 
-#download("https://huggingface.co/dspy/cache/resolve/main/ragqa_arena_tech_corpus.jsonl")
+download("https://huggingface.co/dspy/cache/resolve/main/ragqa_arena_tech_corpus.jsonl")
 
 max_characters = 6000  # for truncating >99th percentile of documents
 topk_docs_to_retrieve = 5  # number of documents to retrieve per search query
 
-with open("dataset/jira_dataset/Projects.json") as f:
+with open("dataset/jira_dataset/deneme.jsonl") as f:
+    #for line in f:
+    #    print(line)
     corpus = [ujson.loads(line)['text'][:max_characters] for line in f]
     print(f"Loaded {len(corpus)} documents. Will encode them below.")
 
@@ -28,7 +30,7 @@ class RAG(dspy.Module):
         return self.respond(context=context, question=question)
     
 rag = RAG()
-rag(question="what are high memory and low memory on linux?")
+rag(question="How many people are working on A* Related tasks? Who are they? What are the tasks' status")
 dspy.inspect_history()
 
 cost = sum([x['cost'] for x in lm.history if x['cost'] is not None]) 
