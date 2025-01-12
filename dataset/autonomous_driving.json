@@ -1,0 +1,83 @@
+[
+    {
+      "task": "Set Up Motion Planning Framework",
+      "description": "Establish the foundational architecture for the motion planning system, including integration with sensor fusion, perception, and control modules."
+    },
+    {
+      "task": "Implement A* Pathfinding Algorithm",
+      "description": "Develop and integrate the A* algorithm for global path planning in urban road networks."
+    },
+    {
+      "task": "Develop Dijkstra-Based Path Optimization",
+      "description": "Enhance the global path planning by implementing a Dijkstra-based optimization algorithm for minimizing travel distance and time."
+    },
+    {
+      "task": "Integrate Rapidly-Exploring Random Tree (RRT) Algorithm",
+      "description": "Implement RRT for generating feasible paths in dynamic and constrained urban environments."
+    },
+    {
+      "task": "Develop Probabilistic Roadmap (PRM) for Local Path Planning",
+      "description": "Incorporate PRM to enhance local path planning and maneuvering in cluttered areas."
+    },
+    {
+      "task": "Implement Kalman Filter for Dynamic Obstacle Tracking",
+      "description": "Develop a Kalman Filter-based module to predict the movement of dynamic obstacles such as vehicles and pedestrians."
+    },
+    {
+      "task": "Integrate Model Predictive Control (MPC) for Trajectory Generation",
+      "description": "Implement MPC to ensure smooth and optimized trajectory generation while maintaining safety constraints."
+    },
+    {
+      "task": "Design Rule-Based Traffic Compliance Algorithms",
+      "description": "Develop algorithms to ensure the vehicle adheres to urban traffic rules, including speed limits, stop signs, and traffic lights."
+    },
+    {
+      "task": "Implement Behavioral Cloning Using Deep Neural Networks",
+      "description": "Train and integrate a behavioral cloning model to replicate human driving behavior in urban environments."
+    },
+    {
+      "task": "Develop Heuristic-Based Lane Change Logic",
+      "description": "Design a heuristic approach to execute safe and efficient lane changes based on traffic flow."
+    },
+    {
+      "task": "Optimize Trajectory Using Gradient Descent Methods",
+      "description": "Incorporate gradient descent optimization for real-time trajectory smoothing and energy efficiency."
+    },
+    {
+      "task": "Test and Validate Using CARLA Simulator",
+      "description": "Use the CARLA simulator to test and validate the performance of motion planning algorithms in diverse urban scenarios."
+    },
+    {
+      "task": "Implement Emergency Braking Algorithm",
+      "description": "Develop a real-time emergency braking system using sensor fusion data and motion prediction."
+    },
+    {
+      "task": "Integrate Particle Filter for Localization",
+      "description": "Combine particle filter algorithms with HD map data to achieve precise localization in urban areas."
+    },
+    {
+      "task": "Develop Multi-Objective Optimization for Urban Driving",
+      "description": "Implement algorithms to balance competing objectives such as safety, efficiency, and passenger comfort in trajectory planning."
+    },
+    {
+      "task": "Conduct Multi-Agent Testing for Intersection Scenarios",
+      "description": "Simulate and test intersection scenarios involving multiple autonomous and human-driven vehicles."
+    },
+    {
+      "task": "Implement Cooperative Adaptive Cruise Control (CACC)",
+      "description": "Develop CACC algorithms to enable safe and efficient coordination with other vehicles in urban traffic."
+    },
+    {
+      "task": "Create ROS Nodes for Modular Motion Planning Components",
+      "description": "Develop ROS nodes for individual components such as path planning, trajectory generation, and decision-making for seamless integration."
+    },
+    {
+      "task": "Validate Safety Metrics Using OpenScenario",
+      "description": "Design and execute OpenScenario-based tests to validate safety and reliability of motion planning algorithms."
+    },
+    {
+      "task": "Document Algorithm Design and Implementation",
+      "description": "Prepare comprehensive documentation for all motion planning algorithms, including design considerations and implementation details."
+    }
+  ]
+  
