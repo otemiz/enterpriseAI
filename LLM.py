@@ -9,7 +9,7 @@ from openai import OpenAI
 max_characters = 6000  # for truncating >99th percentile of documents
 topk_docs_to_retrieve = 5  # number of documents to retrieve per search query
 
-with open("ragqa_arena_tech_corpus.jsonl") as f:
+with open("dataset/jira_dataset/Projects.json") as f:
     corpus = [ujson.loads(line)['text'][:max_characters] for line in f]
     print(f"Loaded {len(corpus)} documents. Will encode them below.")
 
