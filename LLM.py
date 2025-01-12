@@ -30,7 +30,7 @@ class RAG(dspy.Module):
         return self.respond(context=context, question=question)
     
 rag = RAG()
-rag(question="How many people are working on A* Related tasks? Who are they? What are the tasks' status")
+rag(question="How many are working duplicate tasks? Who are they? What are these ta How can they optimize this")
 dspy.inspect_history()
 
 cost = sum([x['cost'] for x in lm.history if x['cost'] is not None]) 
