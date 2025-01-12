@@ -9,7 +9,7 @@ from requests import HTTPError
 def main():
 
     jira = Jira(
-        url   = "https://oguzhanilter.atlassian.net",
+        url   = "https://oguzhanilter.atlassian.net/jira/",
         token = os.environ.get('JIRA_API_KEY')
     )
 

@@ -1,199 +1,199 @@
 {
-    "project_name": "Urban Autonomous Driving Motion Planning",
-    "tasks": [
-      {
-        "task": "Implement RRT Algorithm",
-        "description": "Develop the Rapidly-Exploring Random Tree (RRT) algorithm for pathfinding in urban scenarios.",
-        "assignee": "Ozan T",
-        "status": "In Progress"
-      },
-      {
-        "task": "Optimize A* Algorithm for Urban Environments",
-        "description": "Adapt the A* algorithm for efficient navigation in complex urban layouts.",
-        "assignee": "Eren A",
-        "status": "To Do"
-      },
-      {
-        "task": "Develop Dynamic Obstacle Avoidance",
-        "description": "Create motion planning strategies to dynamically avoid moving obstacles in real-time.",
-        "assignee": "Bruce Lee",
-        "status": "Done"
-      },
-      {
-        "task": "Integrate Hybrid A*/RRT Planner",
-        "description": "Combine Hybrid A* and RRT to improve path optimization and adaptability in urban areas.",
-        "assignee": "Cagatay S",
-        "status": "In Progress"
-      },
-      {
-        "task": "Implement Lane Change Behavior",
-        "description": "Design a motion planning module to handle smooth and safe lane changes.",
-        "assignee": "Oguzhan I",
-        "status": "To Do"
-      },
-      {
-        "task": "Design Traffic Light Compliance Module",
-        "description": "Develop a module ensuring the vehicle's motion planning respects traffic signals.",
-        "assignee": "Eren A",
-        "status": "Done"
-      },
-      {
-        "task": "Implement Pedestrian Prediction Algorithm",
-        "description": "Add predictive modeling to motion planning for better pedestrian interaction.",
-        "assignee": "Ozan T",
-        "status": "To Do"
-      },
-      {
-        "task": "Optimize Computational Efficiency",
-        "description": "Reduce the runtime complexity of the motion planning algorithms.",
-        "assignee": "Bruce Lee",
-        "status": "In Progress"
-      },
-      {
-        "task": "Validate Motion Safety in Simulated Scenarios",
-        "description": "Run simulations to ensure the motion planner avoids unsafe maneuvers.",
-        "assignee": "Oguzhan I",
-        "status": "Done"
-      },
-      {
-        "task": "Develop Emergency Stopping Mechanism",
-        "description": "Implement motion planning for immediate and safe halts in emergencies.",
-        "assignee": "Cagatay S",
-        "status": "To Do"
-      }
+    "projects" : [
+        {
+            "project_name": "Urban Autonomous Driving Motion Planning",
+            "tasks": [
+              {
+                "task": "Implement RRT Algorithm",
+                "description": "Develop the Rapidly-Exploring Random Tree (RRT) algorithm for pathfinding in urban scenarios.",
+                "assignee": "Ozan T",
+                "status": "In Progress"
+              },
+              {
+                "task": "Optimize A* Algorithm for Urban Environments",
+                "description": "Adapt the A* algorithm for efficient navigation in complex urban layouts.",
+                "assignee": "Eren A",
+                "status": "To Do"
+              },
+              {
+                "task": "Develop Dynamic Obstacle Avoidance",
+                "description": "Create motion planning strategies to dynamically avoid moving obstacles in real-time.",
+                "assignee": "Bruce Lee",
+                "status": "Done"
+              },
+              {
+                "task": "Integrate Hybrid A*/RRT Planner",
+                "description": "Combine Hybrid A* and RRT to improve path optimization and adaptability in urban areas.",
+                "assignee": "Cagatay S",
+                "status": "In Progress"
+              },
+              {
+                "task": "Implement Lane Change Behavior",
+                "description": "Design a motion planning module to handle smooth and safe lane changes.",
+                "assignee": "Oguzhan I",
+                "status": "To Do"
+              },
+              {
+                "task": "Design Traffic Light Compliance Module",
+                "description": "Develop a module ensuring the vehicle's motion planning respects traffic signals.",
+                "assignee": "Eren A",
+                "status": "Done"
+              },
+              {
+                "task": "Implement Pedestrian Prediction Algorithm",
+                "description": "Add predictive modeling to motion planning for better pedestrian interaction.",
+                "assignee": "Ozan T",
+                "status": "To Do"
+              },
+              {
+                "task": "Optimize Computational Efficiency",
+                "description": "Reduce the runtime complexity of the motion planning algorithms.",
+                "assignee": "Bruce Lee",
+                "status": "In Progress"
+              },
+              {
+                "task": "Validate Motion Safety in Simulated Scenarios",
+                "description": "Run simulations to ensure the motion planner avoids unsafe maneuvers.",
+                "assignee": "Oguzhan I",
+                "status": "Done"
+              },
+              {
+                "task": "Develop Emergency Stopping Mechanism",
+                "description": "Implement motion planning for immediate and safe halts in emergencies.",
+                "assignee": "Cagatay S",
+                "status": "To Do"
+              }
+            ]
+        },
+        {
+            "project_name": "Indoor Visual Odometry for Drones",
+            "tasks": [
+              {
+                "task": "Implement ORB-SLAM Algorithm",
+                "description": "Develop the ORB-SLAM algorithm to track drone movement in indoor environments.",
+                "assignee": "Cagatay S",
+                "status": "In Progress"
+              },
+              {
+                "task": "Optimize Feature Matching",
+                "description": "Improve feature detection and matching for robust visual odometry in low-light conditions.",
+                "assignee": "Bruce Lee",
+                "status": "To Do"
+              },
+              {
+                "task": "Develop Pose Graph Optimization",
+                "description": "Implement pose graph optimization to improve accuracy in visual odometry estimates.",
+                "assignee": "Eren A",
+                "status": "Done"
+              },
+              {
+                "task": "Integrate IMU Data Fusion",
+                "description": "Combine visual odometry with Inertial Measurement Unit (IMU) data for enhanced precision.",
+                "assignee": "Ozan T",
+                "status": "In Progress"
+              },
+              {
+                "task": "Implement Keyframe Management",
+                "description": "Design a system to handle keyframes efficiently during indoor navigation.",
+                "assignee": "Oguzhan I",
+                "status": "To Do"
+              },
+              {
+                "task": "Develop Loop Closure Detection",
+                "description": "Implement loop closure detection to eliminate drift in large indoor environments.",
+                "assignee": "Cagatay S",
+                "status": "Done"
+              },
+              {
+                "task": "Test Monocular Camera Configuration",
+                "description": "Ensure the visual odometry system works reliably with a monocular camera setup.",
+                "assignee": "Bruce Lee",
+                "status": "In Progress"
+              },
+              {
+                "task": "Implement Depth Estimation with Stereo Cameras",
+                "description": "Develop depth estimation using stereo cameras to improve localization accuracy.",
+                "assignee": "Oguzhan I",
+                "status": "To Do"
+              },
+              {
+                "task": "Optimize Real-Time Performance",
+                "description": "Enhance the system’s real-time processing capabilities for high-speed drones.",
+                "assignee": "Eren A",
+                "status": "In Progress"
+              },
+              {
+                "task": "Validate Accuracy in Simulated Indoor Environments",
+                "description": "Run tests in simulated scenarios to validate the visual odometry software's accuracy.",
+                "assignee": "Ozan T",
+                "status": "Done"
+              }
+            ]
+        },
+        {
+            "project_name": "Mobile Robot Obstacle Avoidance Software",
+            "tasks": [
+              {
+                "task": "Implement DWA Algorithm",
+                "description": "Develop the Dynamic Window Approach (DWA) algorithm for local obstacle avoidance.",
+                "assignee": "Bruce Lee",
+                "status": "In Progress"
+              },
+              {
+                "task": "Optimize Bug Algorithm",
+                "description": "Refine the Bug Algorithm for minimal path deviation in obstacle-rich environments.",
+                "assignee": "Ozan T",
+                "status": "To Do"
+              },
+              {
+                "task": "Develop Potential Fields Method",
+                "description": "Create the Potential Fields algorithm for continuous obstacle repulsion and goal attraction.",
+                "assignee": "Eren A",
+                "status": "Done"
+              },
+              {
+                "task": "Integrate Sensor Fusion for Obstacle Detection",
+                "description": "Combine data from LiDAR and ultrasonic sensors for improved obstacle detection.",
+                "assignee": "Cagatay S",
+                "status": "To Do"
+              },
+              {
+                "task": "Implement VFH Algorithm",
+                "description": "Develop the Vector Field Histogram (VFH) method for navigating cluttered spaces.",
+                "assignee": "Oguzhan I",
+                "status": "In Progress"
+              },
+              {
+                "task": "Develop SLAM Integration Module",
+                "description": "Integrate Simultaneous Localization and Mapping (SLAM) with obstacle avoidance.",
+                "assignee": "Bruce Lee",
+                "status": "Done"
+              },
+              {
+                "task": "Optimize Collision Checking",
+                "description": "Enhance real-time collision checking with bounding boxes and proximity sensors.",
+                "assignee": "Ozan T",
+                "status": "In Progress"
+              },
+              {
+                "task": "Design Emergency Stop Protocol",
+                "description": "Implement an emergency stop mechanism triggered by critical obstacle proximity.",
+                "assignee": "Oguzhan I",
+                "status": "To Do"
+              },
+              {
+                "task": "Validate Algorithm Performance in Simulations",
+                "description": "Test and evaluate the performance of obstacle avoidance algorithms in simulation.",
+                "assignee": "Cagatay S",
+                "status": "Done"
+              },
+              {
+                "task": "Develop Path Smoothing Post-Avoidance",
+                "description": "Create a module to smooth robot paths after obstacle avoidance maneuvers.",
+                "assignee": "Eren A",
+                "status": "In Progress"
+              }
+            ]
+        }
     ]
-  }, 
-
-  {
-    "project_name": "Indoor Visual Odometry for Drones",
-    "tasks": [
-      {
-        "task": "Implement ORB-SLAM Algorithm",
-        "description": "Develop the ORB-SLAM algorithm to track drone movement in indoor environments.",
-        "assignee": "Cagatay S",
-        "status": "In Progress"
-      },
-      {
-        "task": "Optimize Feature Matching",
-        "description": "Improve feature detection and matching for robust visual odometry in low-light conditions.",
-        "assignee": "Bruce Lee",
-        "status": "To Do"
-      },
-      {
-        "task": "Develop Pose Graph Optimization",
-        "description": "Implement pose graph optimization to improve accuracy in visual odometry estimates.",
-        "assignee": "Eren A",
-        "status": "Done"
-      },
-      {
-        "task": "Integrate IMU Data Fusion",
-        "description": "Combine visual odometry with Inertial Measurement Unit (IMU) data for enhanced precision.",
-        "assignee": "Ozan T",
-        "status": "In Progress"
-      },
-      {
-        "task": "Implement Keyframe Management",
-        "description": "Design a system to handle keyframes efficiently during indoor navigation.",
-        "assignee": "Oguzhan I",
-        "status": "To Do"
-      },
-      {
-        "task": "Develop Loop Closure Detection",
-        "description": "Implement loop closure detection to eliminate drift in large indoor environments.",
-        "assignee": "Cagatay S",
-        "status": "Done"
-      },
-      {
-        "task": "Test Monocular Camera Configuration",
-        "description": "Ensure the visual odometry system works reliably with a monocular camera setup.",
-        "assignee": "Bruce Lee",
-        "status": "In Progress"
-      },
-      {
-        "task": "Implement Depth Estimation with Stereo Cameras",
-        "description": "Develop depth estimation using stereo cameras to improve localization accuracy.",
-        "assignee": "Oguzhan I",
-        "status": "To Do"
-      },
-      {
-        "task": "Optimize Real-Time Performance",
-        "description": "Enhance the system’s real-time processing capabilities for high-speed drones.",
-        "assignee": "Eren A",
-        "status": "In Progress"
-      },
-      {
-        "task": "Validate Accuracy in Simulated Indoor Environments",
-        "description": "Run tests in simulated scenarios to validate the visual odometry software's accuracy.",
-        "assignee": "Ozan T",
-        "status": "Done"
-      }
-    ]
-  },
-  {
-    "project_name": "Mobile Robot Obstacle Avoidance Software",
-    "tasks": [
-      {
-        "task": "Implement DWA Algorithm",
-        "description": "Develop the Dynamic Window Approach (DWA) algorithm for local obstacle avoidance.",
-        "assignee": "Bruce Lee",
-        "status": "In Progress"
-      },
-      {
-        "task": "Optimize Bug Algorithm",
-        "description": "Refine the Bug Algorithm for minimal path deviation in obstacle-rich environments.",
-        "assignee": "Ozan T",
-        "status": "To Do"
-      },
-      {
-        "task": "Develop Potential Fields Method",
-        "description": "Create the Potential Fields algorithm for continuous obstacle repulsion and goal attraction.",
-        "assignee": "Eren A",
-        "status": "Done"
-      },
-      {
-        "task": "Integrate Sensor Fusion for Obstacle Detection",
-        "description": "Combine data from LiDAR and ultrasonic sensors for improved obstacle detection.",
-        "assignee": "Cagatay S",
-        "status": "To Do"
-      },
-      {
-        "task": "Implement VFH Algorithm",
-        "description": "Develop the Vector Field Histogram (VFH) method for navigating cluttered spaces.",
-        "assignee": "Oguzhan I",
-        "status": "In Progress"
-      },
-      {
-        "task": "Develop SLAM Integration Module",
-        "description": "Integrate Simultaneous Localization and Mapping (SLAM) with obstacle avoidance.",
-        "assignee": "Bruce Lee",
-        "status": "Done"
-      },
-      {
-        "task": "Optimize Collision Checking",
-        "description": "Enhance real-time collision checking with bounding boxes and proximity sensors.",
-        "assignee": "Ozan T",
-        "status": "In Progress"
-      },
-      {
-        "task": "Design Emergency Stop Protocol",
-        "description": "Implement an emergency stop mechanism triggered by critical obstacle proximity.",
-        "assignee": "Oguzhan I",
-        "status": "To Do"
-      },
-      {
-        "task": "Validate Algorithm Performance in Simulations",
-        "description": "Test and evaluate the performance of obstacle avoidance algorithms in simulation.",
-        "assignee": "Cagatay S",
-        "status": "Done"
-      },
-      {
-        "task": "Develop Path Smoothing Post-Avoidance",
-        "description": "Create a module to smooth robot paths after obstacle avoidance maneuvers.",
-        "assignee": "Eren A",
-        "status": "In Progress"
-      }
-    ]
-  }
-  
-  
-  
+}
