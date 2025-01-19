@@ -4,3 +4,5 @@
 {"text": " project_name: Indoor Visual Odometry for Drones, task: Implement Depth Estimation with Stereo Cameras description: Develop depth estimation using stereo cameras to improve localization accuracy. assignee: Oguzhan I. status: To Do "}
 {"text": " project_name: Mobile Robot Obstacle Avoidance Software, task: Implement VFH Algorithm description: Develop the Vector Field Histogram (VFH) method for navigating cluttered spaces. assignee: Oguzhan I. status: In Progress "}
 {"text": " project_name: Mobile Robot Obstacle Avoidance Software, task: Design Emergency Stop Protocol description: Implement an emergency stop mechanism triggered by critical obstacle proximity. assignee: Oguzhan I. status: To Do "}
+
+{"text": "Oguzhan: Implement Lane Change Behavior. Implement VFH Algorithm. Design Emergency Stop Protocol. Validate Motion Safety in Simulated Scenarios. Implement Keyframe Management.Implement Depth Estimation with Stereo Cameras. "}
