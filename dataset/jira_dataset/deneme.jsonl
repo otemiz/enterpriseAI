@@ -28,3 +28,4 @@
 {"text": " project_name: Mobile Robot Obstacle Avoidance Software, task: Design Emergency Stop Protocol description: Implement an emergency stop mechanism triggered by critical obstacle proximity. assignee: Oguzhan I. status: To Do "}
 {"text": " project_name: Mobile Robot Obstacle Avoidance Software, task: Validate Algorithm Performance in Simulations description: Test and evaluate the performance of obstacle avoidance algorithms in simulation. assignee: Cagatay S. status: Done " }
 {"text": " project_name: Mobile Robot Obstacle Avoidance Software, task: Develop Path Smoothing Post-Avoidance description: Create a module to smooth robot paths after obstacle avoidance maneuvers. assignee: Eren A. status: In Progress "}
+{"text": " project_name: Mobile Robot Obstacle Avoidance Software, task: Develop Path Smoothing Post-Avoidance description: Create a module to smooth robot paths after obstacle avoidance maneuvers. assignee: Eren A. status: In Progress "}
