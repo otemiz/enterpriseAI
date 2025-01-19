@@ -1,3 +1,6 @@
+# specific files
+*/ragqa_arena_tech_corpus.jsonl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
