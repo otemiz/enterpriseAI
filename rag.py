@@ -1,6 +1,8 @@
+import os
 import dspy
 import ujson
-import os
+import openai
+from dspy.retrieve.chromadb_rm import ChromadbRM
 
 
 class RAG(dspy.Module):
