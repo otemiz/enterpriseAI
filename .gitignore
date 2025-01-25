@@ -1,6 +1,8 @@
 # specific files
 */ragqa_arena_tech_corpus.jsonl
-
+*.bin
+*.sqlite3
+*.pickle
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
