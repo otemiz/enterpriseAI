@@ -114,9 +114,8 @@ def main(
             ]
         )
 
-        print(results)
         # Get the response from GPT
-        #response = get_chatGPT_response(query, results["documents"][0], model_name)  # type: ignore
+        response = get_chatGPT_response(query, results["documents"][0], model_name)  # type: ignore
 
         # Output, with sources
         print(response)
